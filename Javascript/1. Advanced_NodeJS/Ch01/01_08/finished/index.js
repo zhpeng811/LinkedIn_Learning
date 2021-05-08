@@ -35,11 +35,9 @@ class PromiseQueue {
   graphTasks() {
     var { todo, running, complete } = this;
     logUpdate(`
-
-   todo: [${todo.map(toX)}]
-   running: [${running.map(toX)}]
-   complete: [${complete.map(toX)}]
-
+      todo: [${todo.map(toX)}]
+      running: [${running.map(toX)}]
+      complete: [${complete.map(toX)}]
     `);
   }
 
